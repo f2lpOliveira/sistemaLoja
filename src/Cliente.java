@@ -22,6 +22,14 @@ public class Cliente {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
+	
+	public void dadosCliente() {
+		System.out.println("Aqui estão os dados solicitados...");
+		System.out.println("\n" + "Código: " + getCodigo());
+		System.out.println("Nome: " + getNome());
+		System.out.println("Endereço: " + getEndereco());
+		
+	}
 
 
 }
