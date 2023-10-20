@@ -27,7 +27,7 @@ public class Cliente {
 		System.out.println("Aqui estão os dados solicitados...");
 		System.out.println("\n" + "Código: " + getCodigo());
 		System.out.println("Nome: " + getNome());
-		System.out.println("Endereço: " + getEndereco());
+		System.out.println("Endereço: " + getEndereco() + "\n");
 		
 	}
 

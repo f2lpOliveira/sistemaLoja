@@ -7,6 +7,12 @@ public class Main {
 		cliente.setNome("Fellipe F Oliveira");
 		cliente.setEndereco("Brasil, BR");
 		cliente.dadosCliente();
+		
+		Funcionario funcionario = new Funcionario();
+		funcionario.setCodigo(1);
+		funcionario.setNome("Mais Antigo");
+		funcionario.setEndereco("Aqui da Loja");
+		funcionario.dadosFuncionario();
 
 	}
 
